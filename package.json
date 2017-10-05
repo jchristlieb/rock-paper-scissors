@@ -1,0 +1,23 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "a quick and dirty java script game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchristlieb/rock-paper-scissors.git"
+  },
+  "author": "Jan Christlieb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchristlieb/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/jchristlieb/rock-paper-scissors#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
